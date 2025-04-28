@@ -32,7 +32,7 @@ Projeto desenvolvido como parte dos estudos de HTML e CSS, com base no layout pr
 
 ## 🚧 Melhorias em andamento
 
-- [ ] Adaptação completa para telas maiores (responsividade total).
+- [x] Adaptação completa para telas maiores (responsividade total).
 - [x] Publicação do projeto na Vercel.
 - [x] Estrutura Mobile First implementada.
 - [x] Separação dos estilos por seções.
