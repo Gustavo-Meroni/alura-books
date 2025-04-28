@@ -36,6 +36,10 @@
   padding: 1em;
 }
 
+.descrição {
+  margin-right: 1em;
+}
+
 .descrição__titulo {
   color: var(--laranja);
   font-weight: 700;
@@ -95,5 +99,37 @@
   .card {
     width: 40%;
     margin: 2em auto;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .carrossel__container {
+    display: flex;
+    margin: 0 15vw 3em 15vw;
+    align-items: center;
+  }
+
+  .swiper-pagination {
+    margin: 0.8em;
+  }
+
+  .swiper {
+    width: 45%;
+  }
+
+  .descrição__titulo {
+    font-size: 32px;
+  }
+
+  .descrição__texto {
+    font-size: 16px;
+  }
+
+  .descrição {
+    margin-right: 2em;
+  }
+
+  .card {
+    margin: 2em 0 0 0;
   }
 }
